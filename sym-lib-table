@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name A)(type Legacy)(uri /home/danny/Documents/NAS/lib/KCORES-KiCAD-Libraries-master/Symbol/Connector_PCI_Express.lib)(options "")(descr ""))
+  (lib (name nas)(type Legacy)(uri ${KIPRJMOD}/lib/nas.lib)(options "")(descr ""))
+)

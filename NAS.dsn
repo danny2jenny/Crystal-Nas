@@ -1,0 +1,339 @@
+(pcb /home/danny/Documents/NAS/NAS.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "5.1.9+dfsg1-1~bpo10+1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  147613 -54478.8  147945 -54535.1  148268 -54628.2  148579 -54757
+            148873 -54919.7  149148 -55114.4  149399 -55338.6  149623 -55589.4
+            149818 -55863.8  149980 -56158.2  150109 -56469.1  150202 -56792.3
+            150258 -57124  150277 -57459.9  150277 -107460  150258 -107796
+            150202 -108127  150109 -108451  149980 -108761  149817 -109056
+            149623 -109330  149399 -109581  149148 -109805  148873 -110000
+            148579 -110163  148268 -110291  147945 -110385  147613 -110441
+            147277 -110460  68277.5 -110460  67941.6 -110441  67609.9 -110385
+            67286.6 -110291  66975.8 -110163  66681.4 -110000  66407 -109805
+            66156.2 -109581  65932 -109330  65737.3 -109056  65574.6 -108761
+            65445.8 -108451  65352.7 -108127  65296.4 -107796  65277.5 -107460
+            65277.5 -57459.9  65296.4 -57124  65352.7 -56792.3  65445.8 -56469.1
+            65574.6 -56158.2  65737.3 -55863.8  65932 -55589.4  66156.2 -55338.6
+            66407 -55114.4  66681.4 -54919.7  66975.8 -54757  67286.7 -54628.2
+            67609.9 -54535.1  67941.6 -54478.8  68277.5 -54459.9  147277 -54459.9
+            147613 -54478.8)
+    )
+    (keepout "" (polygon signal 0  68653.6 -105465  68409.3 -105506  68174.9 -105586  67957.1 -105704
+            67761.6 -105856  67593.8 -106038  67458.3 -106246  67358.8 -106473
+            67297.9 -106713  67277.5 -106960  67297.9 -107207  67358.8 -107447
+            67458.3 -107674  67593.8 -107881  67761.6 -108063  67957.1 -108216
+            68174.9 -108333  68409.3 -108414  68653.6 -108455  68901.4 -108455
+            69145.7 -108414  69380 -108333  69597.9 -108216  69793.4 -108063
+            69961.2 -107881  70096.7 -107674  70196.2 -107447  70257 -107207
+            70277.5 -106960  70257 -106713  70196.2 -106473  70096.7 -106246
+            69961.2 -106038  69793.4 -105856  69597.9 -105704  69380 -105586
+            69145.7 -105506  68901.4 -105465  68653.6 -105465))
+    (keepout "" (polygon signal 0  138938 -60960  138740 -60979.5  138549 -61037.3  138374 -61131.2
+            138220 -61257.6  138093 -61411.5  137999 -61587.2  137942 -61777.8
+            137922 -61976  137922 -103632  137942 -103830  137999 -104021
+            138093 -104196  138220 -104350  138374 -104477  138549 -104571
+            138740 -104628  138938 -104648  142494 -104648  142692 -104628
+            142883 -104571  143058 -104477  143212 -104350  143339 -104196
+            143433 -104021  143490 -103830  143510 -103632  143510 -61976
+            143490 -61777.8  143433 -61587.2  143339 -61411.5  143212 -61257.6
+            143058 -61131.2  142883 -61037.3  142692 -60979.5  142494 -60960
+            138938 -60960))
+    (keepout "" (polygon signal 0  68653.6 -56465  68409.3 -56505.8  68174.9 -56586.2  67957.1 -56704.1
+            67761.6 -56856.3  67593.8 -57038.6  67458.3 -57246  67358.8 -57472.8
+            67297.9 -57713  67277.5 -57959.9  67297.9 -58206.8  67358.8 -58446.9
+            67458.3 -58673.8  67593.8 -58881.2  67761.6 -59063.5  67957.1 -59215.6
+            68174.9 -59333.6  68409.3 -59414  68653.6 -59454.8  68901.4 -59454.8
+            69145.7 -59414  69380 -59333.6  69597.9 -59215.6  69793.4 -59063.5
+            69961.2 -58881.2  70096.7 -58673.8  70196.2 -58446.9  70257 -58206.8
+            70277.5 -57959.9  70257 -57713  70196.2 -57472.8  70096.7 -57246
+            69961.2 -57038.6  69793.4 -56856.3  69597.9 -56704.1  69380 -56586.2
+            69145.7 -56505.8  68901.4 -56465  68653.6 -56465))
+    (via "Via[0-1]_800:400_um" "Via[0-1]_800:600_um")
+    (rule
+      (width 400)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component NAS:log
+      (place G*** 82753.2 -59867.8 front 0 (PN LOGO))
+    )
+    (component NAS:SATA715F9.1H
+      (place "SATA-OUT2" 110109 -78809.9 front 0 (PN SATA_22P_SMT_180))
+      (place "SATA-OUT4" 110109 -92087.7 front 0 (PN SATA_22P_SMT_180))
+      (place "SATA-OUT1" 110109 -65532 front 0 (PN SATA_22P_SMT_180))
+      (place "SATA-OUT3" 110109 -105366 front 0 (PN SATA_22P_SMT_180))
+    )
+    (component NAS:SATA7PF180
+      (place "SATA-IN3" 69316.6 -93522.8 back 90 (PN SATA_7P_DIP_180))
+      (place "SATA-IN2" 77978 -75361.8 back 90 (PN SATA_7P_DIP_180))
+      (place "SATA-IN1" 69316.6 -75361.8 back 90 (PN SATA_7P_DIP_180))
+      (place "SATA-IN4" 78003.4 -93522.8 back 90 (PN SATA_7P_DIP_180))
+    )
+    (component NAS:Power4P
+      (place POWER1 86995 -79248 back 270 (PN POWER4P))
+    )
+  )
+  (library
+    (image NAS:log
+    )
+    (image NAS:SATA715F9.1H
+      (outline (path signal 120  -37445 8500  -37445 -2500))
+      (outline (path signal 120  32625 8500  32625 -2500))
+      (outline (path signal 120  -37445 8500  32625 8500))
+      (outline (path signal 120  32625 -2500  23265 -2500))
+      (outline (path signal 120  -19445 -2500  -37445 -2500))
+      (outline (path signal 120  -19445 -2500  -19445 -1700))
+      (outline (path signal 120  23265 2500  23265 1700))
+      (outline (path signal 120  23265 -2500  19050 -2500))
+      (outline (path signal 120  -1270 -2500  -5080 -2500))
+      (outline (path signal 120  -19445 1700  -19445 2500))
+      (outline (path signal 120  -15240 -2500  -19445 -2500))
+      (outline (path signal 120  23265 -1700  23265 -2500))
+      (outline (path signal 120  -19445 2500  23256 2500))
+      (pin Oval[A]Pad_30000x4000_um 11 9652 5334)
+      (pin Round[A]Pad_3000_um 11@1 22840 0)
+      (pin Round[A]Pad_3000_um 11@2 -19030 0)
+      (pin Rect[T]Pad_600x3850_um 2 -12700 -1885)
+      (pin Rect[T]Pad_600x3850_um 3 -11430 -1885)
+      (pin Rect[T]Pad_600x3850_um 4 -10160 -1885)
+      (pin Rect[T]Pad_600x3850_um 5 -8890 -1885)
+      (pin Rect[T]Pad_600x3850_um 7 -6350 -1885)
+      (pin Rect[T]Pad_600x3850_um 6 -7620 -1885)
+      (pin Rect[T]Pad_600x3850_um 1 -13970 -1885)
+      (pin Rect[T]Pad_600x3850_um 22 17780 -1885)
+      (pin Rect[T]Pad_600x3850_um 21 16510 -1885)
+      (pin Rect[T]Pad_600x3850_um 20 15240 -1885)
+      (pin Rect[T]Pad_600x3850_um 19 13970 -1885)
+      (pin Rect[T]Pad_600x3850_um 18 12700 -1885)
+      (pin Rect[T]Pad_600x3850_um 17 11430 -1885)
+      (pin Rect[T]Pad_600x3850_um 16 10160 -1885)
+      (pin Rect[T]Pad_600x3850_um 15 8890 -1885)
+      (pin Rect[T]Pad_600x3850_um 14 7620 -1885)
+      (pin Rect[T]Pad_600x3850_um 13 6350 -1885)
+      (pin Rect[T]Pad_600x3850_um 12 5080 -1885)
+      (pin Rect[T]Pad_600x3850_um 11@3 3810 -1885)
+      (pin Rect[T]Pad_600x3850_um 10 2540 -1885)
+      (pin Rect[T]Pad_600x3850_um 9 1270 -1885)
+      (pin Rect[T]Pad_600x3850_um 8 0 -1885)
+    )
+    (image NAS:SATA7PF180
+      (outline (path signal 120  -7620 -2540  -7620 2540))
+      (outline (path signal 120  7620 -2540  -7620 -2540))
+      (outline (path signal 120  7620 2540  7620 -2540))
+      (outline (path signal 120  -7620 2540  7620 2540))
+      (outline (path signal 120  4630 -758  4630 -1778))
+      (outline (path signal 120  -4630 -758  4630 -758))
+      (pin Round[A]Pad_2600_um 1 -5950 0)
+      (pin Round[A]Pad_2600_um 7 5950 0)
+      (pin Round[A]Pad_1000_um 7@1 3810 0)
+      (pin Round[A]Pad_1000_um 6 2540 0)
+      (pin Round[A]Pad_1000_um 5 1270 0)
+      (pin Round[A]Pad_1000_um 4 0 0)
+      (pin Round[A]Pad_1000_um 3 -1270 0)
+      (pin Round[A]Pad_1000_um 2 -2540 0)
+      (pin Round[A]Pad_1000_um 1@1 -3810 0)
+    )
+    (image NAS:Power4P
+      (outline (path signal 120  11430 2540  11430 -3810))
+      (outline (path signal 120  11430 -3810  -11430 -3810))
+      (outline (path signal 120  -11430 -3810  -11430 2540))
+      (outline (path signal 120  -10160 3810  10160 3810))
+      (outline (path signal 120  11430 2540  10160 3810))
+      (outline (path signal 120  -11430 2540  -10160 3810))
+      (pin Round[A]Pad_3000_um 4 7620 0)
+      (pin Round[A]Pad_3000_um 3 2540 0)
+      (pin Round[A]Pad_3000_um 2 -2540 0)
+      (pin Round[A]Pad_3000_um 1 -7620 0)
+    )
+    (padstack Round[A]Pad_1000_um
+      (shape (circle F.Cu 1000))
+      (shape (circle B.Cu 1000))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2600_um
+      (shape (circle F.Cu 2600))
+      (shape (circle B.Cu 2600))
+      (attach off)
+    )
+    (padstack Round[A]Pad_3000_um
+      (shape (circle F.Cu 3000))
+      (shape (circle B.Cu 3000))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_30000x4000_um
+      (shape (path F.Cu 4000  -13000 0  13000 0))
+      (shape (path B.Cu 4000  -13000 0  13000 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_600x3850_um
+      (shape (rect F.Cu -300 -1925 300 1925))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:600_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins "SATA-OUT2"-11 "SATA-OUT2"-11@1 "SATA-OUT2"-11@2 "SATA-OUT2"-4 "SATA-OUT2"-7
+        "SATA-OUT2"-1 "SATA-OUT2"-19 "SATA-OUT2"-17 "SATA-OUT2"-13 "SATA-OUT2"-12
+        "SATA-OUT2"-11@3 "SATA-OUT4"-11 "SATA-OUT4"-11@1 "SATA-OUT4"-11@2 "SATA-OUT4"-4
+        "SATA-OUT4"-7 "SATA-OUT4"-1 "SATA-OUT4"-19 "SATA-OUT4"-17 "SATA-OUT4"-13 "SATA-OUT4"-12
+        "SATA-OUT4"-11@3 "SATA-IN3"-1 "SATA-IN3"-7 "SATA-IN3"-7@1 "SATA-IN3"-4 "SATA-IN3"-1@1
+        "SATA-IN2"-1 "SATA-IN2"-7 "SATA-IN2"-7@1 "SATA-IN2"-4 "SATA-IN2"-1@1 "SATA-OUT1"-11
+        "SATA-OUT1"-11@1 "SATA-OUT1"-11@2 "SATA-OUT1"-4 "SATA-OUT1"-7 "SATA-OUT1"-1
+        "SATA-OUT1"-19 "SATA-OUT1"-17 "SATA-OUT1"-13 "SATA-OUT1"-12 "SATA-OUT1"-11@3
+        "SATA-IN1"-1 "SATA-IN1"-7 "SATA-IN1"-7@1 "SATA-IN1"-4 "SATA-IN1"-1@1 "SATA-OUT3"-11
+        "SATA-OUT3"-11@1 "SATA-OUT3"-11@2 "SATA-OUT3"-4 "SATA-OUT3"-7 "SATA-OUT3"-1
+        "SATA-OUT3"-19 "SATA-OUT3"-17 "SATA-OUT3"-13 "SATA-OUT3"-12 "SATA-OUT3"-11@3
+        POWER1-3 POWER1-2 "SATA-IN4"-1 "SATA-IN4"-7 "SATA-IN4"-7@1 "SATA-IN4"-4 "SATA-IN4"-1@1)
+    )
+    (net +5V
+      (pins "SATA-OUT2"-16 "SATA-OUT2"-15 "SATA-OUT2"-14 "SATA-OUT4"-16 "SATA-OUT4"-15
+        "SATA-OUT4"-14 "SATA-OUT1"-16 "SATA-OUT1"-15 "SATA-OUT1"-14 "SATA-OUT3"-16
+        "SATA-OUT3"-15 "SATA-OUT3"-14 POWER1-4)
+    )
+    (net +12V
+      (pins POWER1-1)
+    )
+    (net "Net-(SATA-OUT1-Pad18)"
+      (pins "SATA-OUT1"-18)
+    )
+    (net "Net-(SATA-OUT2-Pad18)"
+      (pins "SATA-OUT2"-18)
+    )
+    (net "Net-(SATA-OUT3-Pad18)"
+      (pins "SATA-OUT3"-18)
+    )
+    (net "Net-(SATA-OUT4-Pad18)"
+      (pins "SATA-OUT4"-18)
+    )
+    (net /B1+
+      (pins "SATA-OUT1"-6 "SATA-IN1"-6)
+    )
+    (net "/B1-"
+      (pins "SATA-OUT1"-5 "SATA-IN1"-5)
+    )
+    (net "/A1-"
+      (pins "SATA-OUT1"-3 "SATA-IN1"-3)
+    )
+    (net /A1+
+      (pins "SATA-OUT1"-2 "SATA-IN1"-2)
+    )
+    (net /B2+
+      (pins "SATA-OUT2"-6 "SATA-IN2"-6)
+    )
+    (net "/B2-"
+      (pins "SATA-OUT2"-5 "SATA-IN2"-5)
+    )
+    (net "/A2-"
+      (pins "SATA-OUT2"-3 "SATA-IN2"-3)
+    )
+    (net /A2+
+      (pins "SATA-OUT2"-2 "SATA-IN2"-2)
+    )
+    (net /B3+
+      (pins "SATA-IN3"-6 "SATA-OUT3"-6)
+    )
+    (net "/B3-"
+      (pins "SATA-IN3"-5 "SATA-OUT3"-5)
+    )
+    (net "/A3-"
+      (pins "SATA-IN3"-3 "SATA-OUT3"-3)
+    )
+    (net /A3+
+      (pins "SATA-IN3"-2 "SATA-OUT3"-2)
+    )
+    (net /B4+
+      (pins "SATA-OUT4"-6 "SATA-IN4"-6)
+    )
+    (net "/B4-"
+      (pins "SATA-OUT4"-5 "SATA-IN4"-5)
+    )
+    (net "/A4-"
+      (pins "SATA-OUT4"-3 "SATA-IN4"-3)
+    )
+    (net /A4+
+      (pins "SATA-OUT4"-2 "SATA-IN4"-2)
+    )
+    (net "Net-(SATA-OUT1-Pad10)"
+      (pins "SATA-OUT1"-10 "SATA-OUT1"-9 "SATA-OUT1"-8)
+    )
+    (net "Net-(SATA-OUT2-Pad10)"
+      (pins "SATA-OUT2"-10 "SATA-OUT2"-9 "SATA-OUT2"-8)
+    )
+    (net "Net-(SATA-OUT3-Pad10)"
+      (pins "SATA-OUT3"-10 "SATA-OUT3"-9 "SATA-OUT3"-8)
+    )
+    (net "Net-(SATA-OUT4-Pad10)"
+      (pins "SATA-OUT4"-10 "SATA-OUT4"-9 "SATA-OUT4"-8)
+    )
+    (net "Net-(SATA-OUT1-Pad20)"
+      (pins "SATA-OUT1"-22 "SATA-OUT1"-21 "SATA-OUT1"-20)
+    )
+    (net "Net-(SATA-OUT2-Pad20)"
+      (pins "SATA-OUT2"-22 "SATA-OUT2"-21 "SATA-OUT2"-20)
+    )
+    (net "Net-(SATA-OUT3-Pad20)"
+      (pins "SATA-OUT3"-22 "SATA-OUT3"-21 "SATA-OUT3"-20)
+    )
+    (net "Net-(SATA-OUT4-Pad20)"
+      (pins "SATA-OUT4"-22 "SATA-OUT4"-21 "SATA-OUT4"-20)
+    )
+    (class kicad_default "" /A1+ "/A1-" /A2+ "/A2-" /A3+ "/A3-" /A4+ "/A4-"
+      /B1+ "/B1-" /B2+ "/B2-" /B3+ "/B3-" /B4+ "/B4-" "Net-(SATA-OUT1-Pad10)"
+      "Net-(SATA-OUT1-Pad18)" "Net-(SATA-OUT1-Pad20)" "Net-(SATA-OUT2-Pad10)"
+      "Net-(SATA-OUT2-Pad18)" "Net-(SATA-OUT2-Pad20)" "Net-(SATA-OUT3-Pad10)"
+      "Net-(SATA-OUT3-Pad18)" "Net-(SATA-OUT3-Pad20)" "Net-(SATA-OUT4-Pad10)"
+      "Net-(SATA-OUT4-Pad18)" "Net-(SATA-OUT4-Pad20)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 400)
+        (clearance 200.1)
+      )
+    )
+    (class Power +12V +5V GND
+      (circuit
+        (use_via Via[0-1]_800:600_um)
+      )
+      (rule
+        (width 600)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
